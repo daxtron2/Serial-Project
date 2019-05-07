@@ -10,8 +10,8 @@ def send_email(safe):
         msg = "Nominal humidity levels have returned!"
 
     server.sendmail(
-    "tjwrazzpi@gmail.com",
-    "4016994055@txt.att.net",
+    "PUT EMAIL TO SEND FROM HERE",
+    "PUT EMAIL TO SEND TO HERE",
     msg)
 
 def loop(startTime):
